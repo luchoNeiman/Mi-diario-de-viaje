@@ -1,0 +1,1114 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid rgb(238, 78, 78);  */
+}
+
+body {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h4 {
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.marcado {
+    background-color: rgb(228, 102, 5);
+}
+
+
+
+
+
+
+
+
+
+/* HEADER */
+header {
+    background-image: url(../IMG/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.contenedorHeader {
+    width: 100%;
+    background: linear-gradient(#000279, #3FC5E9);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
+}
+
+.contenedor-imgLogo {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-logo {
+    height: 100px;
+    padding: 5px;
+}
+
+.navbar {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elementosNavbar {
+    color: white;
+    text-decoration: none;
+    margin: 0 50px;
+}
+
+.elementosNavbar:hover {
+    font-variant: small-caps;
+    background-color: rgb(228, 102, 5);
+    transition: color 1s ease-in-out, 1s ease-in-out;
+}
+
+.cont-headingPrincipal {
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+.tituloPrincipal {
+    background-color: #6FA83B;
+    height: 50px;
+    width: 370px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* MAIN */
+main {
+    background-color: #F9A11E;
+    overflow: hidden;
+}
+
+.contenedorTitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* SECCION 1 */
+.contenedorIntro {
+    background-color: #6FA83B;
+    border: 3px solid black;
+    margin: 0 90px;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 1.5);
+}
+
+.texto-intro {
+    padding: 10px;
+}
+
+
+
+
+
+
+/* SECCION 2 */
+.seccionCarrousel {
+    background-image: url("../IMG/fondoCarrousel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+}
+
+.cont-carrousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrousel {
+    margin: 10px 10px;
+}
+
+.carrousel :hover {
+    transform: scale(1.1);
+    /* Aumenta el tamaño de la imagen al 110% */
+    transition: transform 0.3s ease;
+    /* Agrega una transición suave */
+}
+
+
+.carrousel img {
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 3.5);
+    margin: 5px;
+}
+
+.playa {
+    height: 350px;
+    width: 525px;
+}
+
+.cristoRedentor {
+    height: 350px;
+    width: 525px;
+}
+
+
+
+
+
+
+/* SECCION 3 */
+.contenedorGeneralServicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cont-servicio {
+    background-color: #3FC5E9;
+    width: 80%;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 1.5);
+    padding: 0 60px;
+    margin-top: 40px;
+}
+
+.cont-imgYTexto {
+    display: flex;
+}
+
+.cont-img-servicios {
+    padding: 40px;
+}
+
+.cont-img-servicios :hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    opacity: 80%;
+}
+
+.img-servicio {
+    width: 400px;
+    border-radius: 70px;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 1.5);
+}
+
+.cont-parrafos-servicios {
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.cont-parrafos-servicios p {
+    text-align: justify;
+}
+
+
+
+
+
+
+/* SECCION 4 */
+.cont-lista-secretos {
+    background-image: url(../IMG/fondoSecretos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 3.5);
+    margin-top: 40px;
+}
+
+.cont-titulo-secretos {
+    padding-top: 20px;
+    color: white;
+}
+
+.lista-secretos {
+    list-style: none;
+    padding: 40px 100px;
+}
+
+.listaSecretos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: 2px solid white;
+}
+
+.listaSecretos:hover {
+    background-color: white;
+    border: 3px solid gray;
+    opacity: 80%;
+
+    .cont-subTitulosSecretos {
+        background-color: black;
+        color: white;
+        opacity: 40%;
+    }
+
+    .parrafo-secretos 
+    {
+        color: #000000;
+    }
+}
+
+.cont-subTitulosSecretos {
+    width: 30%;
+    height: 150px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo-secretos {
+    width: 70%;
+    color: white;
+    text-align: justify;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.cont-myButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.myButton {
+    box-shadow: inset 0px 1px 0px -50px #9acc85;
+    background-color: white;
+    border: 3px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Times New Roman;
+    font-size: 18px;
+    padding: 5px 7px;
+    text-decoration: none;
+}
+
+.myButton:hover {
+    background-color: #000000;
+    color: white;
+    border: 3px solid white;
+}
+
+
+
+
+
+
+/* SECCION 5 */
+.cont-testimonios {
+    padding: 0 60px;
+}
+
+.cont-testimonios-arriba {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonio {
+    width: 33%;
+    background-color: black;
+    margin: 30px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 3.5);
+}
+
+.testimonio:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.cont-estrellas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estrellas {
+    width: 80px;
+}
+
+.nombres-testimonios {
+    color: white;
+}
+
+.cont-img-perfil-testimonio {
+    display: flex;
+    justify-content: center;
+}
+
+.img-perfil-testimonio {
+    width: 50%;
+    border-radius: 100px;
+}
+
+.parrafo-testimonio {
+    color: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+.cont-testimonios-abajo {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+/* Footer */
+footer {
+    background: linear-gradient(#3FC5E9, #000279);
+    display: flex;
+    overflow: hidden;
+}
+
+.contenedorContacto {
+    width: 40%;
+    text-align: center;
+    /*lo tuve que usar porque con flexbox no funcionaba */
+}
+
+.titulosFooter {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.listaDatosPersonales {
+    display: flex;
+    justify-content: center;
+}
+
+.listaDatosPersonales ul {
+    list-style: none;
+}
+
+.elementoContacto {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.contenedorPerfil {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotoPerfil {
+    width: 150px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.rrss {
+    width: 40%;
+}
+
+.contenedorRedes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.logo-gmail {
+    width: 25px;
+}
+
+.navFooterEmail {
+    color: white;
+    margin-left: 12px;
+}
+
+.logo-ig {
+    width: 50px;
+}
+
+.navFooterIg {
+    text-decoration: none;
+    color: white;
+}
+
+.navFooterIg:hover {
+    font-variant: small-caps;
+    background-color: rgb(228, 102, 5);
+    transition: color 1s ease-in-out, 1s ease-in-out;
+    border-right: 2px solid #ffae00;
+}
+
+.logo-wpp {
+    width: 50px;
+}
+
+.navFooterWpp {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* QUIENES SOMOS */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0, 9fr repeat(6, 3fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    text-align: justify;
+    background-color: #000000;
+    color: white;
+}
+
+.tiuloConocenos {
+    grid-area: 1 / 1 / 2 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.aboutUs {
+    grid-area: 2 / 1 / 3 / 4;
+    margin-bottom: 20px;
+}
+
+.cont-titulo-aboutUs {
+    background-color: #F9A11E;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.cont-titulo-aboutUs h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.parrafo-aboutUs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 60px;
+    text-align: center;
+}
+
+.aboutUs-img-primeraFila {
+    grid-area: 3 / 1 / 4 / 2;
+    margin-left: 60px;
+}
+
+.aboutUs-primeraFila {
+    grid-area: 3 / 2 / 4 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+}
+
+.aboutUs-segundoFila {
+    grid-area: 4 / 1 / 5 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.aboutUs-img-segundaFila {
+    grid-area: 4 / 3 / 5 / 4;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+.aboutUs-img-terceraFila {
+    grid-area: 5 / 1 / 6 / 2;
+    margin-left: 60px;
+}
+
+.aboutUs-terceraFila {
+    grid-area: 5 / 2 / 6 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+}
+
+.aboutUs-cuartaFila {
+    grid-area: 6 / 1 / 7 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.aboutUs-img-cuartaFila {
+    grid-area: 6 / 3 / 7 / 4;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+.objetivos {
+    grid-area: 7 / 1 / 8 / 4;
+    margin: 60px 0;
+}
+
+.cont-titulo-aboutUs-objetivos {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 420px;
+    background-color: #F9A11E;
+}
+
+.cont-titulo-aboutUs-objetivos h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.parrafo-objetivos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 60px;
+    text-align: center;
+}
+
+.video-conocenos{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/* GALERIA */
+
+/* PASISAJES */
+.galeria {
+    padding: 60px 0;
+    background-color: #000000;
+}
+
+.contenedorTituloGaleria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.cont-subtitulo-galeria {
+    background-color: #F9A11E;
+    margin: 10px 60px;
+}
+
+.cont-subtitulo-galeria h3 {
+    padding: 0;
+    margin: 0;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(255, 144, 17, 0.5);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* VISITAS ICONICAS */
+.cont-subtitulo-galeria-visitas {
+    background-color: #F9A11E;
+    margin: 0 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.cont-subtitulo-galeria-visitas h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin-left: 60px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+    width: 300px;
+}
+
+.coliseoRomano {
+    height: 200px;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 500px;
+    left: 750px;
+    color: white;
+    font-size: 20px;
+    background-color: #F9A11E;
+    padding: 10px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* SERVICIOS */
+.servicios {
+    background-color: black;
+    color: white;
+}
+
+.cont-titulo-servicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.padre {
+    margin-top: 60px;
+}
+
+.cont-subtitulo-servicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-subtitulo-servicio h3 {
+    background-color: #fd9800;
+    border-radius: 6px;
+    padding: 0 10px;
+
+}
+
+.cont-img-servicio {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorGeneral-servicios {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.servicio-izquierda {
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 20px;
+    width: 50%;
+
+}
+
+.parrafo-servicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 90px;
+    text-align: justify;
+}
+
+.servicio-derecha {
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 20px;
+    width: 50%;
+
+}
+
+.img-cena {
+    height: 265px;
+    width: 600px;
+}
+
+.botones {
+    height: 320px;
+    width: 600px;
+}
+
+.contenedorMedio-servicios {
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 60px 180px;
+}
+
+.img-consejo-servicio {
+    height: 270px;
+    width: 600px;
+}
+
+.cont-img-servicio img:hover,
+.cont-img-servicio img:hover,
+.cont-img-servicio img:hover,
+.cont-img-servicio img:hover {
+    filter: grayscale(100%);
+}
+
+
+
+
+
+
+
+
+
+/* SECRETOS */
+.contenedorGeneral-secretos {
+    background-image: url(../IMG/fondoSecretos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    color: white;
+}
+
+.cont-titulo-secretos {
+    grid-area: 1 / 1 / 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid white ;
+    margin: 150px;
+}
+
+.contenedor-parrafo1-secretos {
+    grid-area: 2 / 1 / 3 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    border:1px solid white ;
+}
+
+.cont-img1-secretos {
+    grid-area: 2 / 2 / 3 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-parrafo2-secretos {
+    grid-area: 3 / 2 / 4 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    border:1px solid white ;
+}
+
+.cont-img2-secretos {
+    grid-area: 3 / 1 / 4 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-parrafo3-secretos {
+    grid-area: 4 / 1 / 5 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    border:1px solid white ;
+}
+
+.cont-img3-secretos {
+    grid-area: 4 / 2 / 5 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-parrafo4-secretos {
+    grid-area: 5 / 2 / 6 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    border:1px solid white ;
+}
+
+.cont-img4-secretos {
+    grid-area: 5 / 1 / 6 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-img1-secretos img:hover,
+.cont-img2-secretos img:hover,
+.cont-img3-secretos img:hover,
+.cont-img4-secretos img:hover {
+    filter: grayscale(100%);
+}
+
+
+
+
+
+
+
+
+
+/* CONTACTANOS */
+.cont-titulo-contactanos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    color: #000000;
+}
+
+.contenedorUbicacion {
+    display: flex;
+    margin-top: 20px;
+}
+
+iframe {
+    margin-left: 20px;
+    border-radius: 40px;
+}
+
+.cont-parrafo-contacto {
+    padding: 50px;
+    border: 3px solid white;
+    margin: 20px;
+    border-radius: 60px;
+    color: white;
+    background-color: black;
+}
+
+.cont-subtitulo-contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.cont-confidencialidad-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorGeneralFormulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
